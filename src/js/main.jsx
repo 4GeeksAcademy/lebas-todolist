@@ -9,10 +9,12 @@ import "bootstrap"
 import '../styles/index.css'
 
 // components
-import Home from './components/Home';
+//import Home from './components/Home';
+import { TodoFetch } from './components/TodoFetch'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+    {/* <Home/> */}
+    <TodoFetch/>
   </React.StrictMode>,
 )
